@@ -1,0 +1,20 @@
+DATA QUALITY SUMMARY
+
+1. Total datasets loaded: 10
+
+2. All datasets loaded successfully.
+
+3. No duplicate records found in sampled datasets.
+
+4. Missing values:
+   - 04_monthly_sip_inflows.csv contains missing values in yoy_growth_pct.
+   - Other datasets appear complete.
+
+5. Important datasets:
+   - 01_fund_master.csv (Fund details)
+   - 02_nav_history.csv (Historical NAV data)
+
+6. Data types are consistent and suitable for analysis.
+
+Conclusion:
+Data quality is good and ready for further analysis.

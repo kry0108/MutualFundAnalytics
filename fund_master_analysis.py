@@ -1,0 +1,12 @@
+import pandas as pd
+
+df = pd.read_csv("data/raw/01_fund_master.csv")
+
+print("Unique Fund Houses:")
+print(df["fund_house"].nunique())
+
+print("\nCategories:")
+print(df["category"].unique())
+
+print("\nRisk Categories:")
+print(df["risk_category"].unique())
